@@ -32,7 +32,7 @@ public class WordController {
             }
         }
 
-        return service.getWords(difficulty);
+        return service.findWords(difficulty);
     }
 
     @GetMapping("/api/v1/words/{wordId}")
